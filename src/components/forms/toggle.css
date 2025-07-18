@@ -1,0 +1,8 @@
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #2563eb; /* Tailwind's blue-600 */
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+}
